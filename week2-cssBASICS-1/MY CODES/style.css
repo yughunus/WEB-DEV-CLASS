@@ -1,0 +1,22 @@
+.hero
+{
+  color:green;
+}
+#new
+{
+  color:red;
+}
+/* pseudo class selector */
+button:hover
+{
+  color:yellow;
+}
+  /* element selector */
+  p{
+    color:red;
+    font-size: larger;
+  }
+  .parv
+  {
+    color:green;
+  }

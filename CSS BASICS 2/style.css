@@ -1,0 +1,17 @@
+div{
+  border: 2px solid black;
+  height:200px;
+  width: 150px;
+  /* background-image: radial-gradient(circle,white 10%,red 80% ,blue 2%); */
+  background-image: conic-gradient(blue 30deg,red 60 deg);
+
+
+}
+.TRANSLATED
+{
+  transform: perspective(25px) translateZ(-50px);
+  -webkit-transform: perspective(25px) translateZ(-50px);
+  -moz-transform: perspective(25px) translateZ(-50px);
+  -ms-transform: perspective(25px) translateZ(-50px);
+  -o-transform: perspective(25px) translateZ(-50px);
+}

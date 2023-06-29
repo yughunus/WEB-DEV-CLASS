@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set base font size and family */
+  html {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #f00;
+  }
+  
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  ul.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  ul.menu li {
+    width: calc(50% - 1rem);
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul.menu li h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  ul.menu li p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  ul.menu li p.price {
+    font-weight: bold;
+  }
+  
+  ul.menu li button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul.cart {
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  ul.cart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul.cart li h3 {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  ul.cart li p.price {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  
+  ul.cart li button {
+    background-color: transparent;
+    color: #f00;
+    border: none;
+    cursor: pointer;
+  }
+  
+  h2 + form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  input, button {
+    padding: 0.5rem;
+    display: flex;
+    

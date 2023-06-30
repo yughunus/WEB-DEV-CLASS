@@ -1,0 +1,259 @@
+@font-face{
+  font-family: Raleway;
+  src:url(Raleway1.ttf);
+ }
+@font-face
+{
+  font-family:Roboto flex;
+  src:url(Roboto\ flex.ttf);
+}
+img
+{
+  overflow-y: hidden;
+}
+ *
+ {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x:hidden;
+}
+
+.container
+{
+  background: #F3F4F6;
+}
+header
+{
+  margin-left: 54px;
+  margin-top: 3rem;
+}
+li
+{
+  display: table-cell; 
+  color: #777C85;
+  font-size: 1.125rem;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; 
+  list-style: none;
+  padding: 15px 0;
+ 
+}
+a:hover
+{
+  color: #4E5DC0;
+}
+a {
+  padding: 15px 20px;
+  position: relative;
+}
+a::after
+{
+  /* background: none repeat scroll 0 0 transparent; */
+  position: absolute;
+  content: "";
+  background: #4E5DC0;
+  width: 0%;
+  height: 2px;
+  left: 50%;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -ms-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  bottom: 0;
+}
+a:hover:after
+{
+  width: 100%;
+  left: 0;
+  color: #4E5DC0;
+}
+.navbar
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation{
+  display: table;
+  width: 50%;
+  padding: 0;
+  
+}
+.logo
+{
+  width: 98px;
+  flex-shrink: 0;
+  margin-left: 54px;
+}
+button
+{
+color: #FFF;
+font-size: 16px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+width: 165px;
+height: 54px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #4E5DC0;
+}
+.team
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head
+{
+  position: relative;
+  color: #16171C;
+  font-size: 2.375rem;
+  font-family: Roboto Flex;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 20px 0;
+}
+.head::after
+{
+  position: absolute;
+  content: "";
+  background: #00000080;
+  width: 17.5rem;
+  height:2px;
+  flex-shrink: 0;
+  left: 0;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -ms-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  bottom: 0;
+}
+.team
+{
+  margin-top: 10rem;
+}
+.team_text
+{
+  margin-left: 54px;
+display: flex;
+width: 35.8125rem;
+flex-direction: column;
+flex-shrink: 0;
+}
+
+.para
+{
+margin-top: 10px;
+color: #777C85;
+font-size: 1.25rem;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+line-height: 2.125rem;
+}
+.team_img
+{
+width: 35.625rem;
+height: 26.6875rem;
+flex-shrink: 0;
+border-radius: 1.875rem;
+overflow-y: hidden;
+}
+.footer
+{
+display: flex;
+justify-content: space-between;
+margin-left: 0;
+margin-top: 10rem;
+width: 90rem;
+height: 24.375rem;
+flex-shrink: 0;
+background-color: #FFFFFF;
+}
+h3:hover
+{
+color: #4E5DC0;
+font-size: 1rem;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+line-height: 2rem;
+letter-spacing: 0.1875rem;
+text-decoration-line: underline;
+text-transform: uppercase;
+}
+h3{
+color: #4E5DC0;
+font-size: 1rem;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+line-height: 2rem;
+letter-spacing: 0.1875rem;
+text-transform: uppercase;
+
+}
+.privacy
+{
+margin-left: 54PX;
+ width: 20%;
+}
+.address
+{
+ width: 23%
+}
+.menu
+{
+  
+  width: 20%
+}
+.social
+{
+  
+  width: 20%
+}
+.pic
+{
+
+  background-color: ;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  overflow-y: hidden;
+}
+.paraa
+{
+  color: #999;
+  font-size: 1rem;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+}
+#add_text
+{
+  display: flex;
+  width: 20.75rem;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+#right
+{
+display: flex;
+width: 13.0625rem;
+flex-direction: column;
+flex-shrink: 0;
+}
+.paraa:hover
+{
+  color: #4E5DC0;
+  text-decoration: double;
+}

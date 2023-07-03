@@ -1,0 +1,106 @@
+*
+{
+  margin-left: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: visible;
+}
+.wrapper
+{
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "hd hd"
+  "box box";
+}
+.header
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  grid-area: hd;
+  justify-self: space-evenly;
+}
+#search
+{
+  width: 40px;
+  height: 40px;
+}
+.head
+{
+  text-decoration: underline;
+  font-size: xx-large;
+}
+.boxx
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  grid-area: box;
+}
+.box
+{
+  display: grid;
+  grid-template-rows: 60% 40%;
+  border: 5px solid lightgrey;
+  border-style: ridge;
+}
+.left
+{
+  color: blue;
+  font-size: small;
+}
+h3
+{
+  font-size: x-large;
+}
+.date
+{
+  font-size:small;
+  color: gray;
+}
+.link
+{
+  margin-top: 50px;
+  justify-self: end;
+}
+.title
+{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left
+{
+  margin: 2px 5px 0px;
+}
+.title
+{
+  margin: 2px 5px 0px;
+}
+.date
+{
+  margin: 0px 5px 0px;
+}
+.para
+{
+  margin: 10px 5px 0px;
+}
+.lower
+{
+  padding: 30px 0px;
+}
+.right
+{
+  color: green;
+  margin: 2px 5px 0px;
+  font-size: small;
+}
+.box:hover
+{
+  border-style: groove;
+  background-color: bisque;
+}
